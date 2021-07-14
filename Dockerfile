@@ -1,4 +1,4 @@
-FROM golang:1.12.4-stretch
+FROM golang:1.15.13-stretch
 RUN sed -i 's/main/main contrib non-free/' /etc/apt/sources.list && \
     echo "deb http://ftp.debian.org/debian/ stretch-backports main contrib non-free" > /etc/apt/sources.list.d/backports.list
 WORKDIR /home/Osmedeus
