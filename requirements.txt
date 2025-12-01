@@ -7,3 +7,4 @@ Flask-RESTful==0.3.6
 requests==2.22.0
 ansi2html==1.5.2
 tabulate==0.8.2
+werkzeug>=3.1.4 # not directly required, pinned by Snyk to avoid a vulnerability
